@@ -3,9 +3,9 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 500px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  min-height: 550px;
+  padding: 100px 0;
+
 }
 
 .slider{
@@ -13,6 +13,11 @@
   width: 500px;
   position: relative;
   z-index: 20;
+
+  @media screen and (min-width: 800px) {
+    height: 200px;
+    width: 700px;
+  }
 }
 
 .verticalSlider{
@@ -20,5 +25,10 @@
   height: 500px;
   width: 500px;
   z-index: 10;
+
+  @media screen and (min-width: 800px) {
+    height: 700px;
+    width: 700px;
+  }
 }
 

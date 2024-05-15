@@ -28,9 +28,9 @@ export default function FebruaryHolidays() {
       <div
         className={s.wrapper}
         style={{
-          transform: size >= 1100 ? `scale(${2})` : `scale(${size / 550})`,
+          transform: size >= 800 ? `scale(${1})` : `scale(${size / 550})`,
           transformOrigin: "top left",
-          width: "550px",
+          width: size >= 800 ? "100%" : "550px",
         }}
       >
         <div className={s.slider}>
