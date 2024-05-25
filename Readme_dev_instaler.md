@@ -1,7 +1,5 @@
 #"Name of your project"
 
-##Credentials
-
 ###Actual Node.js version - 18.x.x
 
 ## Start project

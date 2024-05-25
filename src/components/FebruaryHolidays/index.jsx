@@ -11,18 +11,18 @@ import { Mousewheel } from "swiper/modules";
 
 const detailsConf = [
   ["Home", 1, 2, 3, 4, 5],
-  ["Store", 1, 2, 3, 4, 5],
-  ["News", 1, 2, 3, 4, 5],
-  ["Social", 1, 2, 3, 4, 5],
-  ["Vote", 1, 2, 3, 4, 5],
-  ["About us", 1, 2, 3, 4, 5],
+  ["Store", 5, 6, 7, 8, 9],
+  ["News", 10, 11, 12, 13, 14],
+  ["Social", 15, 16, 17, 18, 19],
+  ["Vote", 20, 21, 22, 23, 24],
+  ["About us", 25, 26, 27, 28, 29],
 ];
 
 export default function FebruaryHolidays() {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   const [size, setSize] = useState();
   const handleSlideChange = (swiper) => setActiveSlideIndex(swiper.realIndex);
-
+  console.log(size / 550);
   return (
     <Scaler setSize={setSize}>
       <div
